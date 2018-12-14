@@ -1,0 +1,102 @@
+body {
+    background: url(http://www.magic4walls.com/wp-content/uploads/2014/05/minimalist-picture-bridge-river-dreaming-art-picture-landscape-sky.jpg)no-repeat;
+}
+
+.container {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: px;
+}
+
+.pic-container {
+    float: left;
+}
+
+.parent {
+    position: relative;
+    width: 109px;
+    height: 109px;
+    margin: 0 auto;
+}
+
+.wrapper {
+    width: 109px;
+    height: 109px;
+    cursor: pointer;
+    position: absolute;
+    overflow: hidden;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    transition-timing-function: cubic-bezier(0.4, 0.0, 0.2, 1);
+    transition: transform 375ms, width 275ms 100ms, height 375ms;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+
+.wrapper.open {
+    width: 250px;
+    height: 250px;
+    translate transition: transform 375ms, width 375ms, height 275ms 100ms;
+}
+
+.wrapper div.content {
+    position: absolute;
+    margin: auto;
+    left: -9999px;
+    right: -9999px;
+    transform-origin: top;
+    width: 250px;
+    transform: scale(0.62);
+    height: 250px;
+    border-radius: 3px;
+    background: #fff;
+    overflow: hidden;
+    transition: transform 375ms cubic-bezier(0.4, 0.0, 0.2, 1);
+}
+
+.wrapper.open .content {
+    transform: scale(1);
+}
+
+.wrapper .img {
+    height: 180px;
+    background-size: cover;
+    background-position: center;
+}
+
+.thumb-1 .img {
+    background-image: url(https://static.tumblr.com/9c8387aa9c1b37636df0c4bb11c03b66/vwuuzs0/78Nnjp01d/tumblr_static_tumblr_static_3yjv52keascg0ocw8cw84c8ss_640.png);
+}
+
+.thumb-2 .img {
+    background-image: url(https://img.maximummedia.ie/joe_ie/eyJkYXRhIjoie1widXJsXCI6XCJodHRwOlxcXC9cXFwvbWVkaWEtam9lLm1heGltdW1tZWRpYS5pZS5zMy5hbWF6b25hd3MuY29tXFxcL3dwLWNvbnRlbnRcXFwvdXBsb2Fkc1xcXC8yMDE4XFxcLzAzXFxcLzA5MTIxNDAzXFxcL2hvbWVyLXNpbXBzb24uanBnXCIsXCJ3aWR0aFwiOjc2NyxcImhlaWdodFwiOjQzMSxcImRlZmF1bHRcIjpcImh0dHBzOlxcXC9cXFwvd3d3LmpvZS5pZVxcXC9hc3NldHNcXFwvaW1hZ2VzXFxcL2pvZVxcXC9uby1pbWFnZS5wbmc_dj01XCJ9IiwiaGFzaCI6IjExYTExOTkyMmM3NTMxZmE5Yzg2ZWFiZjQ3ZDMwYWQxMjMzZDE5ZjQifQ==/homer-simpson.jpg);
+}
+
+.thumb-3 .img {
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTHu5OLq2S7lQ_aKzocMjkdlKuQydhPi7fOHsulDlf3YrRdq_Nq);
+}
+
+.thumb-4 .img {
+    background-image: url(https://imgur.com/vIGSyLv.png);
+}
+
+.text {
+    padding: 30px;
+}
+
+.text .line {
+    height: 13px;
+    background: #999;
+    opacity: 0.7;
+    margin-top: 20px;
+}
+
+.title {
+    width: 80%;
+}
+
+.subtitle {
+    width: 60%;
+}
