@@ -404,7 +404,7 @@ a:hover {
   }
   .timeline-centered .timeline-info,
   .timeline-centered .timeline-content {
-    width: 48%;
+    width: 45%;
   }
   .timeline-centered > .timeline-item:nth-child(odd) .timeline-info {
     float: left;
