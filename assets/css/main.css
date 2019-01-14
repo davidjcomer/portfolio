@@ -609,6 +609,7 @@ input, select, textarea {
 			font-style: normal;
 			font-weight: normal;
 			text-transform: none !important;
+      font-size: 2rem;
 		}
 
 		.icon > .label {
@@ -1239,6 +1240,7 @@ input, select, textarea {
 		text-align: center;
 	}
 
+
 		#header > * {
 			-moz-transition: opacity 0.325s ease-in-out;
 			-webkit-transition: opacity 0.325s ease-in-out;
@@ -1320,7 +1322,7 @@ input, select, textarea {
 			margin-bottom: 0;
 			list-style: none;
 			padding-left: 0;
-			border: solid 1px #ffffff;
+			/* border: solid 1px #ffffff; */
 			border-radius: 4px;
 		}
 
@@ -1328,6 +1330,32 @@ input, select, textarea {
 				padding-left: 0;
 				border-left: solid 1px #ffffff;
 			}
+
+      #social-media-li {
+        padding: 0;
+        display: inline;
+        align-items: center;
+        border-radius: 100px;
+        border: solid 1px #ffffff;
+        font-size: 2rem;
+        height: 2em;
+        width: 2em;
+        margin: .25em;
+        position: relative;
+        top: 0;
+      }
+      #social-media-a {
+        display: inline;
+        /* min-width: 3.5rem; */
+        height: 2em;
+        width: 2em;
+        line-height: 2.75rem;
+        padding: 0 1.25rem 0 1.45rem;
+        text-transform: uppercase;
+        letter-spacing: 0.2rem;
+        font-size: 0.8rem;
+        border-bottom: 0;
+      }
 
 				#header nav ul li:first-child {
 					border-left: 0;
