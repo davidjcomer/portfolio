@@ -681,6 +681,12 @@ input, select, textarea {
 			width: 100%;
 		}
 
+		.image.thumbnail {
+			display: inline;
+			margin: .25rem .25rem;
+			width: 2rem;
+		}
+
 			.image.main img {
 				width: 100%;
 			}
@@ -715,7 +721,6 @@ input, select, textarea {
 
 	ul {
 		list-style: disc;
-		margin: 0 0 2rem 0;
 		padding-left: 1em;
 	}
 
@@ -1298,7 +1303,7 @@ input, select, textarea {
 				-webkit-transition-delay: 0.25s;
 				-ms-transition-delay: 0.25s;
 				transition-delay: 0.25s;
-				padding: 3rem 2rem;
+				padding: 2rem 2rem;
 				max-height: 40rem;
 				overflow: hidden;
 			}
